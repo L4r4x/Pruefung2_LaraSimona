@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verein Zuger Jugendtreffpunkte</title>
+    <style>
+        
+        
+        h1{
+            text-align: left;
+            margin: 0;
+            
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #f7f7f7;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1em;
+        }
+
+        .logo {
+            height: 50px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 1em;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        main {
+            padding: 2em;
+        }
+
+        .membership-form {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 2em;
+            border: 1px solid white;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+        }
+
+        .membership-form h1 {
+            text-align: center;
+            margin-bottom: 1em;
+        }
+
+        .membership-form label {
+            display: block;
+            margin: 0.5em 0 0.2em;
+        }
+
+        .membership-form input,
+        .membership-form textarea {
+            width: 100%;
+            padding: 0.5em;
+            margin-bottom: 1em;
+            border: 1px solid #525252;
+            border-radius: 5px;
+        }
+
+        .membership-form button {
+            width: 100%;
+            padding: 0.7em;
+            border-radius: 10px;
+            background-color: white;
+            color: black;
+            font-size: 1em;
+            cursor: pointer;
+        }
+
+        .membership-form button:hover {
+            background-color: #000000;
+            color: white;
+        }
+
+        .locate-us {
+            text-align: center;
+            margin-top: 2em;
+            color: #000000;
+        }
+
+        footer {
+            background-color: #f7f7f7;
+            padding: 1em;
+            text-align: center;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer nav ul {
+            display: flex;
+            justify-content: center;
+            gap: 1em;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <img src="logo.png" alt="Verein Zuger Jugendtreffpunkte Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="#">Verein</a></li>
+                <li><a href="#">Kontakt</a></li>
+                <li><a href="#">Impressum</a></li>
+                <li><a href="#">DSGVO</a></li>
+                <li><a href="#">Mitglied</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="membership-form">
+            <h1>Werde Mitglied</h1>
+            <form action="#" method="post">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name">
+
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email">
+
+                <label for="subject">Regarding Jazz</label>
+                <input type="text" id="subject" name="subject" placeholder="Enter your subject">
+
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" placeholder="Your message here"></textarea>
+
+                <button type="submit" class="buttom-send">Send</button>
+            </form>
+        </section>
+
+        <section class="locate-us">
+            <h1>Locate us</h1>
+            <!-- Add your map or location details here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 - ZJT</p>
+        <nav>
+            <ul>
+                <li><a href="#">Verein</a></li>
+                <li><a href="#">Kontakt</a></li>
+                <li><a href="#">Impressum</a></li>
+                <li><a href="#">DSGVO</a></li>
+                <li><a href="#">Mitglied</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>
