@@ -1,6 +1,8 @@
-# Verein Zuger Jugendtreffpunkte
+# Verein ZJT
 
-Willkommen auf der offiziellen Webseite des Vereins Zuger Jugendtreffpunkte (ZJT). Unser Verein fördert Jugendtreffpunkte und Jugendinitiativen in Zug, um Jugendlichen Freizeitmöglichkeiten und Unterstützung auf ihrem Weg in die Selbständigkeit zu bieten.
+Willkommen auf dem offiziellen Webseite des Vereins Zuger Jugendtreffpunkte (ZJT). Unser Verein fördert Jugendtreffpunkte und Jugendinitiativen in Zug, um Jugendlichen Freizeitmöglichkeiten und Unterstützung auf ihrem Weg in die Selbständigkeit zu bieten.
+
+Dies ist ein Entwurf mit der Absicht ihn später wirklich einzusetuen.
 
 ## Inhaltsverzeichnis
 
@@ -11,45 +13,33 @@ Willkommen auf der offiziellen Webseite des Vereins Zuger Jugendtreffpunkte (ZJT
 5. [Technologien](#technologien)
 6. [Mitwirkende](#mitwirkende)
 7. [Lizenz](#lizenz)
+8. [Abweichungen von der Vorlage](#abweichungen-von-der-vorlage)
 
 ## Einführung
 
-Diese Webseite dient als Plattform, um über unsere Veranstaltungen, Tätigkeitsfelder und Mitgliedschaftsmöglichkeiten zu informieren. 
-Hier finden Sie aktuelle Informationen zu unseren Projekten und können sich für Veranstaltungen anmelden.
+Diese Webseite dient als Plattform, um über unsere Veranstaltungen, Tätigkeitsfelder und Mitgliedschaftsmöglichkeiten zu informieren.
+Hier finden man aktuelle Informationen zu unseren Projekten und können sich für Veranstaltungen anmelden.
 
 ## Projektstruktur
 
-
 r<oot
 ├── index.html # Hauptdatei der Webseite
-├── index.css # Hauptstylesheet der Webseite
-├── assets # Ordner für Bilder und andere statische Ressourcen
-│ ├── headerzjt.png
-│ ├── i45header.png
-│ ├── headerjaz.png
-│ ├── event.png
-│ ├── cd.png
-│ ├── concert.png
-│ ├── klavier.png
-│ └── drink.png
+├──Ordner: pages # all pages
+├──Ordner: styles # all stylesheets
+├── Ordner: img # Ordner für Bilder
 └── README.md # Dokumentation der Webseite
-
 
 ## Installation und Einrichtung
 
 Um die Webseite lokal zu testen und zu entwickeln, folgen Sie bitte diesen Schritten:
 
 1. **Repository klonen**:
-    ```bash
-    git clone https://github.com/your-repository/zjt-website.git
-    ```
 
-2. **In das Projektverzeichnis wechseln**:
-    ```bash
-    cd zjt-website00
-    ```
+   ```bash
+   git clone https://github.com/L4r4x/Pruefung2_LaraSimona
+   ```
 
-3. **Öffnen Sie die `index.html` Datei in Google Chrome**.
+2. **Öffnen der `index.html` Datei in Google Chrome**.
 
 ## Verwendung
 
@@ -62,8 +52,8 @@ Um die Webseite lokal zu testen und zu entwickeln, folgen Sie bitte diesen Schri
 ## Technologien
 
 - **HTML5**: Struktur der Webseite
-- **CSS3**: Design und Layout der Webseite
-- **JavaScript**: (Optional, falls Interaktivität benötigt wird)
+- **CSS**: Design und Layout der Webseite
+- **JavaScript**: die Verlinkung im Header ging so viel einfacher
 
 ## Mitwirkende
 
@@ -72,17 +62,23 @@ Um die Webseite lokal zu testen und zu entwickeln, folgen Sie bitte diesen Schri
 
 ## Lizenz
 
-Diese Webseite und ihr Inhalt sind urheberrechtlich geschützt. Für weitere Informationen zur Lizenzierung, bitte [Lizenzdatei](LICENSE) im Repository einsehen.
-
----
-Abweichungen von der Vorlage
+Diese Webseite und ihr Inhalt sind urheberrechtlich geschützt.
 
 ---
 
-Vielen Dank für Ihr Interesse an unserem Verein und unserer Arbeit. 
-Für weitere Fragen oder Anregungen stehen wir Ihnen gerne zur Verfügung.
+## Abweichungen von der Vorlage
 
-**Verein Zuger Jugendtreffpunkte**  
-[Website URL]  
-[Kontakt E-Mail]  
-[Telefonnummer]
+Wir haben keinen Home-Button gemacht, da wir ja die ZJT Website gemacht haben und man durch den Klick auf dieses Logo automatisch wieder auf die Startseite gelangt.
+
+Die Page '''Geschichte'' haben wir leer gelassen, da wir nirgendwo pdf-Jahresrückblicke finden konnten und dies auch noch nicht lange in der Vorlage ist.
+
+Die Animationen haben wir zum einen in der Karte von '''Locate us'' und bei den Youtube-Videos verwendet. Zum anderen haben wir auch eine Animation im Hamburger-Menu hinzugefügt.
+
+## Beim Hamburgermenu sieht es viel schöner ohne die schwarze Umrandung aus.
+
+Vielen Dank für das Interesse an unserer Arbeit.
+Für weitere Fragen oder Anregungen stehen wir gerne zur Verfügung.
+
+**Ein Werk von Simona und Lara**  
+lara.moscillo@roche.com
+lara.moscillo@roche.com

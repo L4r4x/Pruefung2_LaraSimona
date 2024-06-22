@@ -1,0 +1,91 @@
+
+/*code header*/
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: left;
+    margin: 0;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    padding: 2em;
+}
+
+.membership-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2em;
+    border: 1px solid white;
+    border-radius: 10px;
+
+}
+
+.membership-form h1 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.membership-form label {
+    display: block;
+    margin: 0.5em 0 0.2em;
+}
+
+.membership-form input,
+.membership-form textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #525252;
+    border-radius: 5px;
+}
+
+.membership-form button {
+    width: 100%;
+    padding: 0.7em;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.membership-form button:hover {
+    background-color: #000000;
+    color: white;
+}
+
+.locate-us {
+    margin-top: 2em;
+    color: #000000;
+    display: grid;
+    place-items: center;
+}
+
+.locate-us iframe {
+    width: 100%;
+}
+
+.Titel-Seite {
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.obersteUeberschrift {
+    display: grid;
+    place-items: left;
+    text-align: left;
+    justify-content: left;
+}

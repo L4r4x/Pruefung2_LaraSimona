@@ -1,0 +1,130 @@
+
+header {
+    background-color: #fff;
+    height: 150px; /* Adjust the height if necessary */
+}
+
+nav {
+    height: inherit;
+}
+nav div.logo-container {
+    height: inherit;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* #zjt-logo {
+    background-color: #DE3636;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+} */
+
+.logo-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    height: 100%;
+    width: 50%;
+}
+
+#i45-logo, #jaz-logo {
+    flex: 1;
+    display: flex;
+}
+
+#i45-logo {
+    background-color: #F26BFF;
+    margin-bottom: 4px;
+}
+
+#jaz-logo {
+    background-color: #90DAEE;
+    margin-top: 4px;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.nav-menu {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+}
+
+nav button.menu-button {
+    font-size: 2em;
+    background: none;
+    border: none;
+    cursor: pointer;
+
+    background-color: #fff;
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav button.menu-button::after {
+    display:  none;
+}
+nav button.menu-button:hover {
+    background-color: #eee;
+}
+
+nav button.menu-button i {
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-logo {    
+    overflow: hidden; 
+    position: relative;
+    background-color: #DE3636; 
+    height: 100%;
+    width: 50%;
+    cursor:  pointer;
+}
+
+.main-logo-img {
+    height: 100%;
+    padding: 12px;
+}
+
+.logo-container {
+    display: flex;
+    gap: 10px;
+}
+
+.logo {
+    height: 50%;
+    overflow: hidden;    
+    padding: 12px;
+    cursor:pointer;
+}
+
+.logo-img {
+    padding: 4px;
+}
+
+nav .menu-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-logo-img {
+        width: 100%;
+    }
+}

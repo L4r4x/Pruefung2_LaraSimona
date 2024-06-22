@@ -1,0 +1,119 @@
+
+/*code header*/
+body, html {
+   margin: 0;
+   padding: 0;
+   font-family: Arial, sans-serif;
+}
+
+.ersterBlock {
+    border-color: rgb(246, 244, 244);
+    border-style: solid;
+    border-radius: 3em;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: inline-block;
+    padding-top: 7%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 10%;
+    
+
+}
+
+.zweiterBlock{
+
+   border-color: rgb(246, 244, 244);
+   border-style: solid;
+   border-radius: 3em;
+   margin-bottom: 5%;
+   margin-left: 5%;
+   margin-right: 5%;
+   display: inline-block;
+   padding-top: 7%;
+   padding-bottom: 5%;
+   padding-left: 5%;
+   padding-right: 5%;
+   border-radius: 10%;
+}
+
+.dritterBlock{
+
+   border-color: rgb(246, 244, 244);
+   border-style: solid;
+   border-radius: 3em;
+   margin-bottom: 5%;
+   margin-left: 5%;
+   margin-right: 5%;
+   display: inline-block;
+   padding-top: 7%;
+   padding-bottom: 5%;
+   padding-left: 5%;
+   padding-right: 5%;
+   border-radius: 10%;
+}
+
+
+.Ueberschrift1 {
+    margin-left: 5%;
+    margin-top: 5%;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+}
+
+
+h5 {
+    padding-top: 5%;
+    font-size: x-large;
+    padding-bottom: 5%;
+  
+}
+
+
+p {
+    font-size: large;
+    text-align: left;
+}
+
+
+
+
+img{
+   border-radius: 10%;
+}
+
+
+
+.card-body1{
+border-color:white;
+}
+
+
+
+.card-body2{
+
+border-color: white;
+}
+
+
+
+.card-body3{
+border-color: white;
+}
+
+.youtube-feed-item {
+   width: 100%;
+   padding: 0 5%;
+}
+
+div.youtube-feed-item-card {
+   border-radius: 30px;
+   padding: 30px;
+   margin-bottom: 50px;
+}
+
+iframe.youtube-feed-item-preview {
+   border-radius: 30px;
+}
