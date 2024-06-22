@@ -81,4 +81,4 @@ Für weitere Fragen oder Anregungen stehen wir gerne zur Verfügung.
 
 **Ein Werk von Simona und Lara**  
 lara.moscillo@roche.com
-lara.moscillo@roche.com
+simona.studhalter@roche.com
