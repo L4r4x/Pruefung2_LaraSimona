@@ -10,18 +10,27 @@
 <body>
     <header>
         <div class="logo-container">
-            <img src="/Pruefung2_LaraSimona/index/Links/headerzjt.png" alt="zjt" class="logo">
-            <img src="/Pruefung2_LaraSimona/index/Links/i45header.png" alt="KJS Logo" class="logo">
-            <img src="/Pruefung2_LaraSimona/index/Links/headerjaz.png" alt="DSJ Logo" class="logo">
+            <div class="logo" id="zjt-logo">
+                <img src="/Links/headerzjt.png" alt="zjt">
+            </div>
+            <div class="logo-group">
+                <div class="logo" id="i45-logo">
+                    <img src="/Links/i45header.png" alt="i45">
+                </div>
+                <div class="logo" id="jaz-logo">
+                    <img src="/Links/headerjaz.png" alt="jazLogo">
+                </div>
+            </div>
         </div>
         <nav>
             <button class="menu-button">☰</button>
         </nav>
     </header>
+
     <main>
         <section class="event-section">
             <div class="event-container">
-            <img src="/Links/event.png" alt="Hintergrundbild" class="event-background">
+                <img src="/Links/event.png" alt="Hintergrundbild" class="event-background">
                 <h2>Nächster Event</h2>
                 <p>GV Mitgliederversammlung<br>16.05.2024 18.00 Uhr</p>
                 <button>Anmeldung</button>
@@ -46,7 +55,7 @@
             <h3>Mehr zum Verein</h3>
             <div class="more-container">
                 <div class="card">
-                <img src="/Links/cd.png">
+                    <img src="/Links/cd.png" alt="Our events">
                     <p>Our events</p>
                 </div>
                 <div class="card">
@@ -65,14 +74,21 @@
         </section>
     </main>
     <footer>
-        <p>© 2024 - ZJT</p>
-        <nav class="footer-nav">
-            <a href="#">Verein</a>
-            <a href="#">Kontakt</a>
-            <a href="#">Impressum</a>
-            <a href="#">DSGVO</a>
-            <a href="#">Mitglied</a>
-        </nav>
+        <div class="linie"></div>
+        <div class="divFooter1">
+            <img class="LogoVereinZugerJugend" src="/Links/LogoVereinZugerJugend.png">
+            <a class="TitelFooter">Verein Zuger Jugendtreffpunkte</a>
+        </div>
+        <div class="divFooter2">
+            <a class="copyright">&copy; 2024 - ZJT</a>
+        </div>
+        <div class="BehaelterFooter">
+            <a class="footer" href="https://zjt.ch/" target="_blank">Verein</a>
+            <a class="footer" href="page4.html">Kontakt</a>
+            <a class="footer" href="https://www.conviva-plus.ch/?page=1135">Impressum</a>
+            <a class="footer" href="https://www.kmu.admin.ch/kmu/de/home/fakten-trends/digitalisierung/datenschutz/neues-datenschutzgesetz-rev-dsg.html">DSGVO</a>
+            <a class="footer" href="https://zjt.ch/Mitglied_werden">Mitglied</a>
+        </div>
     </footer>
 </body>
 </html>
