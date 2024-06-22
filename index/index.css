@@ -106,15 +106,6 @@ left: 38.93%;
 right: 39.2%;
 top: 23.01%;
 bottom: 75.75%;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 21px;
-/* identical to box height */
-
-color: #FFFFFF;
 }
 
 
@@ -134,7 +125,6 @@ color: #FFFFFF;
     position: relative; /* Notwendig für absolute Positionierung des Inhalts */
     z-index: 1; /* Stellt sicher, dass der Inhalt über dem Bild angezeigt wird */
     padding: 20px;
-    color: white;
     text-align: center;
 }
 .event-background {
